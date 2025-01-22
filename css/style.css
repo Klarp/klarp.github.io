@@ -13,12 +13,12 @@ body {
 }
 
 #menu {
-	width: 80%;
+	width: 90%;
 	margin: 20px auto;
 }
 
 #menu table {
-	width: 60%;
+	width: 100%;
 	border-collapse: separate;
 	border-spacing: 0;
 	margin: 0 auto;
@@ -64,4 +64,12 @@ body {
 
 #menu h2 {
 	text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+	#menu th, #menu td {
+		padding: 5px;
+		font-size: 12px;
+	}
 }
