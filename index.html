@@ -8,22 +8,22 @@
 	<body>
 		<div id="header">
 			<h1>Wainwright Junior Ranks Mess</h1>
+			<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
 		</div>
-		<!--Table to show calender for food items to be shown for Friday TGIF-->
 		<div id="menu">
-			<h2>January TGIF Menu</h2>
+			<h2>Upcoming Events</h2>
 			<table>
 				<tr>
-					<th>24 Jan 2025</th>
-					<th>31 Jan 2025</th>
+					<th>Date</th>
+					<th>Event</th>
 				</tr>
 				<tr>
-					<td>Curry Capitol</td>
-					<td>Pizza (Unknown)</td>
+					<td>29 March 2025</td>
+					<td>Comedy Show</td>
 				</tr>
 				<tr>
-					<td>Non-Alcoholic Drinks</td>
-					<td>Non-Alcoholic Drinks</td>
+					<td>17 April 2025</td>
+					<td>Dodgeball Tournament</td>
 				</tr>
 			</table>
 			<h2>February TGIF Menu</h2>
@@ -68,6 +68,77 @@
 					<td>Unknown</td>
 				</tr>
 			</table>
+			<h2>April TGIF Menu</h2>
+			<table>
+				<tr>
+					<th>4 Apr 2025</th>
+					<th>11 Apr 2025</th>
+					<th>17 Apr 2025</th>
+					<th>25 Apr 2025</th>
+				</tr>
+				<tr>
+					<td>Wendy's</td>
+					<td>Taco Bar (Vera's)</td>
+					<td>Easter Dinner (Vera's)</td>
+					<td>Pizza</td>
+				</tr>
+				<tr>
+					<td>Unknown</td>
+					<td>Unknown</td>
+					<td>Unknown</td>
+					<td>Unknown</td>
+				</tr>
+			</table>
+			<h2>May TGIF Menu</h2>
+			<table>
+				<tr>
+					<th>2 May 2025</th>
+					<th>9 May 2025</th>
+					<th>16 May 2025</th>
+					<th>23 May 2025</th>
+					<th>30 May 2025</th>
+				</tr>
+				<tr>
+					<td>Quiznos</td>
+					<td>Curry Capitol</td>
+					<td>Burger Bar (Fork Around)</td>
+					<td>KFC</td>
+					<td>Pizza</td>
+				</tr>
+				<tr>
+					<td>Unknown</td>
+					<td>Unknown</td>
+					<td>Unknown</td>
+					<td>Unknown</td>
+					<td>Unknown</td>
+				</tr>
+			</table>
+			<h2>June TGIF Menu</h2>
+			<table>
+				<tr>
+					<th>6 Jun 2025</th>
+					<th>13 Jun 2025</th>
+					<th>20 Jun 2025</th>
+					<th>27 Jun 2025</th>
+				</tr>
+				<tr>
+					<td>Chinese (Four Seasons)</td>
+					<td>Subway</td>
+					<td>BarBurrito</td>
+					<td>Pizza</td>
+				</tr>
+				<tr>
+					<td>Unknown</td>
+					<td>Unknown</td>
+					<td>Unknown</td>
+					<td>Unknown</td>
+				</tr>
+			</table>
 		</div>
+		<script>
+			function toggleDarkMode() {
+				document.body.classList.toggle('dark-mode');
+			}
+		</script>
 	</body>
 </html>

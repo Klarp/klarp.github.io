@@ -5,6 +5,36 @@ body {
 	background-color: #f4f4f4;
 }
 
+/* Dark mode styles */
+.dark-mode {
+	background-color: #121212;
+	color: #e0e0e0;
+}
+
+.dark-mode #header {
+	background-color: #1f1f1f;
+	color: #e0e0e0;
+}
+
+.dark-mode #menu th, .dark-mode #menu td {
+	border-left: 1px solid #444;
+	border-right: 1px solid #444; 
+	border-top: 1px solid #444; 
+	color: #e0e0e0; 
+}
+
+.dark-mode #menu th {
+	background-color: #333;
+}
+
+.dark-mode #menu tr:nth-child(even) {
+	background-color: #1f1f1f;
+}
+
+.dark-mode #menu td:hover {
+	background-color: #333;
+}
+
 #header {
 	background-color: #333;
 	color: #fff;
@@ -66,7 +96,6 @@ body {
 	text-align: center;
 }
 
-/* Responsive styles */
 @media (max-width: 600px) {
 	#menu th, #menu td {
 		padding: 5px;
